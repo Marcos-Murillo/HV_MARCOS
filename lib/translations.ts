@@ -39,6 +39,9 @@ export const translations = {
     moreProjects: "Más Proyectos",
     projectStock:"Sistema de Inventario Cultural",
     projectStockDesc:"La página es un Sistema de Inventario Cultural para la Universidad del Valle que permite gestionar el inventario de implementos culturales mediante funciones para agregar, dar de baja y controlar el stock; administrar préstamos y devoluciones; además, ofrece reportes y estadísticas detalladas para facilitar el análisis y la toma de decisiones, todo organizado en módulos accesibles para optimizar la gestión eficiente y controlada del patrimonio cultural de la institución.",
+    Sharing:"Compartiendo conocimientos mientras aprendo",
+    Worck:"Algunos de mis proyectos favoritos en los que he trabajado.",
+    M:"Me encanta constrir cosas"
   },
   en: {
     home: "Home",
@@ -79,5 +82,8 @@ export const translations = {
     moreProjects: "More Projects",
     projectStock:"Cultural Inventory System",
     projectStockDesc:"This page is a Cultural Inventory System for the Universidad del Valle. It allows you to manage the inventory of cultural implements using functions to add, remove, and control stock; manage loans and returns; and offers detailed reports and statistics to facilitate analysis and decision-making, all organized into accessible modules to optimize the efficient and controlled management of the institution's cultural heritage.",
+    Sharing:"Sharing knowledge as I learn",
+    Worck:"Here are some of my favorite projects I've worked on.",
+    M:"I love building things"
   },
 }

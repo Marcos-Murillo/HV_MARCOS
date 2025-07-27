@@ -177,10 +177,8 @@ export default function Portfolio() {
 
         {/* Projects Section */}
         <section id="projects" className="mb-20">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">I love building things</h2>
-          <p className="text-gray-600 dark:text-gray-400 mb-12">
-            Here are some of my favorite projects I've worked on.
-          </p>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{t.M}</h2>
+          <p className="text-gray-600 dark:text-gray-400 mb-12">{t.Worck}</p>
 
           {/* Main Projects Grid */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -205,7 +203,7 @@ export default function Portfolio() {
 
         {/* Experience Section */}
         <section id="experience" className="mb-20">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Sharing knowledge as I learn</h2>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">{t.Sharing}</h2>
 
           <div className="space-y-8">
             <div className="flex justify-between items-start">
