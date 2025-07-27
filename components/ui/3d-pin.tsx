@@ -25,11 +25,18 @@ export const PinContainer = ({
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)")
   }
 
+ const handleClick = () => {
+    if (href) {
+      window.open(href, "_blank")
+    }
+  }
+
   return (
     <div
       className={`relative group/pin z-40 cursor-pointer ${containerClassName}`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={handleClick}
     >
       <div
         style={{
@@ -66,8 +73,9 @@ export const PinPerspective = ({
           <a
             href={href}
             target="_blank"
-            className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10"
+            className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 pointer-events-auto"
             rel="noreferrer"
+            onClick={(e) => e.stopPropagation()}
           >
             <span className="relative z-20 text-white text-xs font-bold inline-block py-0.5">{title}</span>
 

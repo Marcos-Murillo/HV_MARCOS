@@ -27,9 +27,9 @@ export const translations = {
     projectFinanzas: "Tracker de Finanzas Personales",
     projectFinanzasDesc:
       "Aplicación web para el seguimiento y gestión de finanzas personales con análisis de gastos, presupuestos y objetivos de ahorro.",
-    projectDashboard: "Dashboard de Gestión de Proyectos",
+    projectDashboard: "Dashboard de Gestión de Ventas y Stock",
     projectDashboardDesc:
-      "Panel de control integral para la gestión y seguimiento de proyectos con métricas en tiempo real y herramientas colaborativas.",
+      "Es una herramienta que permite controlar el inventario, las ventas, la inversión y el retorno de tu empresa o emprendimiento de forma centralizada, facilitando la toma de decisiones y el seguimiento eficiente del negocio.",
     projectBitacora: "Sistema de Bitácora y Asistencia",
     projectBitacoraDesc:
       "Es una herramienta diseñada para gestionar eficientemente las tareas de los monitores del área de cultura. Permite agendar actividades asignándoles fechas de vencimiento, marcarlas como completadas y ofrece estadísticas para evaluar la funcionalidad de cada monitor. Además, incluye un sistema de control de asistencia al trabajo que verifica la ubicación de la persona mediante tecnología GPS, asegurando que el registro de entrada y salida se realice únicamente cuando el empleado se encuentra en el lugar de trabajo. Esto facilita un seguimiento preciso tanto de las actividades culturales como de la presencia laboral del personal, contribuyendo a una mejor organización y evaluación del desempeño dentro del área.",
@@ -37,6 +37,8 @@ export const translations = {
     projectNominaDesc:
       "Es una herramienta que permite registrar los horarios de todos los trabajadores y calcular automáticamente sus sueldos, considerando recargos por horarios nocturnos, días feriados y dominicales. Además, facilita la impresión de reportes de nómina individuales para cada empleado, optimizando la gestión salarial y asegurando el cumplimiento de las normativas laborales. Este sistema automatiza procesos complejos, reduce errores humanos y puede integrarse con otros sistemas para ofrecer un control completo sobre la administración del personal y sus remuneraciones",
     moreProjects: "Más Proyectos",
+    projectStock:"Sistema de Inventario Cultural",
+    projectStockDesc:"La página es un Sistema de Inventario Cultural para la Universidad del Valle que permite gestionar el inventario de implementos culturales mediante funciones para agregar, dar de baja y controlar el stock; administrar préstamos y devoluciones; además, ofrece reportes y estadísticas detalladas para facilitar el análisis y la toma de decisiones, todo organizado en módulos accesibles para optimizar la gestión eficiente y controlada del patrimonio cultural de la institución.",
   },
   en: {
     home: "Home",
@@ -65,9 +67,9 @@ export const translations = {
     projectFinanzas: "Personal Finance Tracker",
     projectFinanzasDesc:
       "Web application for tracking and managing personal finances with expense analysis, budgets and savings goals.",
-    projectDashboard: "Project Management Dashboard",
+    projectDashboard: "Sales and Stock Management Dashboard",
     projectDashboardDesc:
-      "Comprehensive control panel for project management and tracking with real-time metrics and collaborative tools.",
+      "It is a tool that allows you to centrally control inventory, sales, investment, and the return of your company or venture, facilitating decision-making and efficient business monitoring.",
     projectBitacora: "Logbook and Attendance System",
     projectBitacoraDesc:
       "It is a tool designed to efficiently manage the tasks of cultural area monitors. It allows them to schedule activities by assigning due dates, mark them as completed, and offers statistics to evaluate each monitor's functionality. It also includes a work attendance control system that verifies the employee's location using GPS technology, ensuring that the entry and exit check-in process is only performed when the employee is at work. This facilitates accurate monitoring of both cultural activities and staff presence, contributing to better organization and performance evaluation within the area.",
@@ -75,5 +77,7 @@ export const translations = {
     projectNominaDesc:
       "It is a tool that allows you to record all employees' schedules and automatically calculate their salaries, considering surcharges for night shifts, holidays, and Sundays. It also facilitates the printing of individual payroll reports for each employee, optimizing salary management and ensuring compliance with labor regulations. This system automates complex processes, reduces human error, and can be integrated with other systems to offer complete control over staff management and compensation.",
     moreProjects: "More Projects",
+    projectStock:"Cultural Inventory System",
+    projectStockDesc:"This page is a Cultural Inventory System for the Universidad del Valle. It allows you to manage the inventory of cultural implements using functions to add, remove, and control stock; manage loans and returns; and offers detailed reports and statistics to facilitate analysis and decision-making, all organized into accessible modules to optimize the efficient and controlled management of the institution's cultural heritage.",
   },
 }

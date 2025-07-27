@@ -7,9 +7,11 @@ import { cn } from "@/lib/utils"
 export const ThreeDMarquee = ({
   images,
   className,
+  onImageClick,
 }: {
   images: string[]
   className?: string
+  onImageClick?: (imageSrc: string) => void
 }) => {
   // Split the images array into 4 equal parts
   const chunkSize = Math.ceil(images.length / 4)
@@ -46,6 +48,10 @@ export const ThreeDMarquee = ({
                     <motion.img
                       whileHover={{
                         y: -10,
+                          scale: 1.02,
+                      }}
+                      whileTap={{
+                        scale: 0.98,
                       }}
                       transition={{
                         duration: 0.3,
@@ -53,10 +59,11 @@ export const ThreeDMarquee = ({
                       }}
                       key={imageIndex + image}
                       src={image}
-                      alt={`Image ${imageIndex + 1}`}
-                      className="aspect-[970/700] rounded-lg object-cover ring ring-gray-950/5 hover:shadow-2xl"
+                      alt={`Project ${imageIndex + 1}`}
+                      className="aspect-[970/700] rounded-lg object-cover ring ring-gray-950/5 hover:shadow-2xl cursor-pointer"           
                       width={970}
                       height={700}
+                      onClick={() => onImageClick?.(image)}
                     />
                   </div>
                 ))}
